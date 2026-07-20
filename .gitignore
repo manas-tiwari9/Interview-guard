@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Project Specific Data
+reports/
+evidence/
+*.pdf
+*.json
+
+# Machine Learning / AI Weights & Data
+models/
+datasets/
+runs/
+*.pt
+*.onnx
+*.weights
+*.h5
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment variables (Credentials)
+.env
+
+# DO NOT ignore .streamlit/config.toml as it contains the UI theme!
